@@ -1,0 +1,149 @@
+/********************** NAVBAR ******************/
+.navbar-toggler {
+  background-color: #b6347b;
+  color: #fff;
+  border: none !important;
+  margin-right: 1.2em;
+}
+.navbar-toggler-icon {
+  color: #fff;
+  border: none !important;
+}
+
+.navbar-toggler:hover,
+.navbar-toggler:focus {
+  background-color: #e457a4;
+  border: none !important;
+}
+
+.navbar-collapse {
+  border-color: rgba(230, 149, 149, 0.02);
+  margin-top: 1.5em;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.ml-auto a {
+  /*color: rgb(190, 106, 141);*/
+  align-items: center;
+  display: flex;
+  padding: 0 1rem;
+  height: 100%;
+  cursor: pointer;
+  text-decoration: none !important;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #ebdee3;
+  font-weight: bold;
+}
+
+.ml-auto a:hover,
+.ml-auto a:focus {
+  outline: 0;
+  color: #aa2769;
+}
+
+.navbar-brand:hover,
+.navbar-brand:focus,
+.navbar-brand:active,
+.navbar-brand.active {
+  color: #aa2769;
+}
+/****************** RESPONSIVENESS *********************/
+
+@media only screen and (max-width: 1300px) {
+  .navbar {
+    padding: 20px 0;
+    border: 0;
+    background-color: black;
+  }
+  .navbar {
+    background: rgb(235, 158, 158) !important;
+  }
+}
+
+@media only screen and (max-width: 1060px) {
+  .navbar-brand img {
+    margin-top: 5px;
+    margin-left: 5px;
+  }
+  .navbar {
+    background: rgb(235, 158, 158) !important;
+  }
+}
+
+@media only screen and (max-width: 769px) {
+  .navbar-brand img {
+    margin-top: 5px;
+    margin-left: 5px;
+  }
+  .navbar {
+    background: rgb(235, 158, 158) !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar {
+    padding: 20px 0;
+    border: 0;
+    background-color: transparent;
+    -webkit-transition: padding 0.3s;
+    -moz-transition: padding 0.3s;
+    transition: padding 0.3s;
+  }
+  .navbar .ml-auto a {
+    text-decoration: underline;
+  }
+  .navbar .navbar-brand {
+    font-size: 2em;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  .navbar .ml-auto > .active > a {
+    border-radius: 3px;
+  }
+  .navbar.navbar-shrink .ml-auto a {
+    font-weight: 500;
+    text-decoration: none;
+  }
+  .navbar.navbar-shrink {
+    padding: 15px 0;
+
+    background: rgb(235, 158, 158) !important;
+  }
+
+  .navbar.navbar-shrink .navbar-brand {
+    font-size: 1.5em;
+  }
+}
+
+@media only screen and (max-width: 345px) {
+  .navbar-brand img {
+    margin-top: 5px;
+    margin-left: 5px;
+  }
+  .navbar {
+    background: rgb(235, 158, 158) !important;
+  }
+  .navbar-toggler {
+    margin-right: inherit;
+  }
+}
+
+@media only screen and (max-width: 260px) {
+  .navbar-brand img {
+    margin-top: 5px;
+    margin-left: 5px;
+  }
+  .navbar {
+    background: rgb(235, 158, 158) !important;
+  }
+  .navbar-toggler {
+    margin-right: inherit;
+  }
+}
