@@ -6,7 +6,7 @@ type CarrouselProps = {
   hero: string;
   hero1: string;
   hero2: string;
-  children: string;
+  children: React.ReactNode;
 };
 
 const Carrousel = ({ hero, hero1, hero2, children }: CarrouselProps) => {
