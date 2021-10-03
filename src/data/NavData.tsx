@@ -10,6 +10,10 @@ export const NavData = [
     link: '/schedules',
   },
   {
+    title: 'Tickets',
+    link: '/tickets',
+  },
+  {
     title: 'Contact ',
     link: '/contact',
   },
