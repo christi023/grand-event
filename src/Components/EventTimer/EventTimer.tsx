@@ -85,26 +85,3 @@ const EventTimer = () => {
 };
 
 export default EventTimer;
-
-/*
-    <div className="countdown_wrapper">
-      <div className="countdown_top">Event starts in</div>
-      <div className="countdown_bottom">
-        <div className="countdown_item">
-          <div className="countdown_time">{days}</div>
-          <div className="countdown_tag">Days</div>
-        </div>
-        <div className="countdown_item">
-          <div className="countdown_time">{hours}</div>
-          <div className="countdown_tag">Hrs</div>
-        </div>
-        <div className="countdown_item">
-          <div className="countdown_time">{minutes}</div>
-          <div className="countdown_tag">Min</div>
-        </div>
-        <div className="countdown_item">
-          <div className="countdown_time">{seconds}</div>
-          <div className="countdown_tag">Sec</div>
-        </div>
-      </div>
-    </div> */

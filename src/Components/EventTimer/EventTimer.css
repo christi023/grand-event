@@ -1,18 +1,3 @@
-@media screen and (max-width: 560px) {
-  .countdown_wrapper {
-    position: absolute;
-    bottom: -6em;
-    color: #ffffff;
-    font-size: 5px;
-    width: 50%;
-  }
-
-  .center_wrapper {
-    width: 20%;
-    margin: auto;
-  }
-}
-
 /* ==========================================================================
    Countdown Style Start
    ========================================================================== */
@@ -27,6 +12,7 @@
 
 .time-count div {
   text-align: center;
+  margin-bottom: 2em;
 }
 
 .time-entry {
@@ -59,7 +45,10 @@
   border-left: none;
 }
 .time-countdown {
-  margin-bottom: 15px;
+  margin-bottom: 10px;
+}
+.countdown-timer {
+  margin-top: 2em;
 }
 
 @media (max-width: 767px) {
