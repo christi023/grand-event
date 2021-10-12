@@ -44,11 +44,39 @@
 .time-entry:first-child {
   border-left: none;
 }
+
 .time-countdown {
   margin-bottom: 10px;
 }
+
 .countdown-timer {
   margin-top: 2em;
+}
+
+h6.wrapper {
+  text-align: center;
+  color: #fff;
+  font-size: 42px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: 'Josefin Sans', sans-serif;
+  background: linear-gradient(to right, #ab0962 10%, #25abe8 50%, #f59f3d 60%);
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 1.5s linear infinite;
+  display: inline-block;
+  margin-bottom: 0ch;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
 }
 
 @media (max-width: 767px) {

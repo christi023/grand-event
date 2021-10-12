@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { Row, Col } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './EventTimer.css';
 
@@ -42,19 +43,14 @@ const EventTimer = () => {
   return (
     <section className="countdown-timer section-padding">
       <div className="container">
-        <div className="row text-center">
-          <div className="col-md-12 col-sm-12 col-xs-12">
+        <Row className=" text-center">
+          <Col md={12} sm={12} xs={12}>
             <div className="heading-count">
-              <h6 className="wow fadeInDown" data-wow-delay="0.2s">
-                Event Starts In
-              </h6>
+              <h6 className="wrapper">Event Starts In</h6>
             </div>
-          </div>
-          <div className="col-md-12 col-sm-12 col-xs-12">
-            <div
-              className="row time-countdown justify-content-center wow fadeInUp"
-              data-wow-delay="0.2s"
-            >
+          </Col>
+          <Col md={12} sm={12} xs={12}>
+            <div className="row time-countdown justify-content-center ">
               <div id="clock" className="time-count">
                 <div className="time-entry days">
                   <span>{days}</span>
@@ -77,8 +73,8 @@ const EventTimer = () => {
             <Link to="/calender" className="btn btn-primary">
               Add To Calender
             </Link>
-          </div>
-        </div>
+          </Col>
+        </Row>
       </div>
     </section>
   );
