@@ -17,7 +17,7 @@
 
 .time-entry {
   display: inline-block;
-  min-width: 120px;
+  min-width: 100px;
   margin: 15px;
   height: 110px;
   padding: 20px;
@@ -60,12 +60,13 @@ h6.wrapper {
   text-transform: uppercase;
   font-weight: 700;
   font-family: 'Josefin Sans', sans-serif;
-  background: linear-gradient(to right, #ab0962 10%, #25abe8 50%, #f59f3d 60%);
+  background: linear-gradient(to right, #eb487f 10%, #25abe8 50%, #c79731 60%);
   background-size: auto auto;
   background-clip: border-box;
   background-size: 200% auto;
   color: #fff;
   background-clip: text;
+  text-fill-color: transparent;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: textclip 1.5s linear infinite;
@@ -78,7 +79,6 @@ h6.wrapper {
     background-position: 200% center;
   }
 }
-
 @media (max-width: 767px) {
   .countdown-timer .heading-count {
     padding: 10px;
